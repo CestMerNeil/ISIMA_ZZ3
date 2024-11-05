@@ -1,0 +1,11 @@
+/Users/neil/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Users/neil/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -G Ninja -S /Users/neil/Code/ZZ3/CPP/tp_2 -B /Users/neil/Code/ZZ3/CPP/tp_2/cmake-build-debug
+-- The CXX compiler identification is AppleClang 16.0.0.16000026
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done (0.6s)
+CMake Error: CMake can not determine linker language for target: common
+-- Generating done (0.0s)
+CMake Generate step failed.  Build files cannot be regenerated correctly.

@@ -11,6 +11,7 @@
 template <typename T>
 std::string chaine(const T &x)
 {
+
     throw ExceptionChaine("Conversion en chaine impossible pour '" + demangle(typeid(x).name()) + "'");
 }
 

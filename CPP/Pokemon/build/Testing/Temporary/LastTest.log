@@ -1,0 +1,21 @@
+Start testing: Dec 01 11:38 CET
+----------------------------------------------------------
+1/1 Testing: PokemonTests
+1/1 Test: PokemonTests
+Command: "/Users/neil/Code/ZZ3/CPP/Pokemon/build/pokemon_tests"
+Directory: /Users/neil/Code/ZZ3/CPP/Pokemon/build
+"PokemonTests" start time: Dec 01 11:38 CET
+Output:
+----------------------------------------------------------
+===============================================================================
+All tests passed (33 assertions in 9 test cases)
+
+<end of output>
+Test time =   0.01 sec
+----------------------------------------------------------
+Test Passed.
+"PokemonTests" end time: Dec 01 11:38 CET
+"PokemonTests" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 01 11:38 CET

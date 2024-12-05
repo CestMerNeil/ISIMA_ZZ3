@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libcar_lib.a CMakeFiles/car_lib.dir/src/Car.cpp.o CMakeFiles/car_lib.dir/src/ElectricCar.cpp.o CMakeFiles/car_lib.dir/src/CarFactory.cpp.o CMakeFiles/car_lib.dir/src/Garage.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libcar_lib.a

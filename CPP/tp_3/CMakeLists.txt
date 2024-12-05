@@ -14,12 +14,12 @@ endif ()
 
 # Sources #-----------------------------------------------------------------------------------------
 set ( PROJECT_HEADERS
-      #src/chaine.hpp
+      src/chaine.hpp
       #src/cosinus.hpp
       src/demangle.hpp
       src/exception.hpp
       #src/exponentielle.hpp
-      #src/factorielle.hpp
+      src/factorielle.hpp
       #src/puissance.hpp
     )
 

@@ -1,0 +1,21 @@
+Start testing: Dec 04 00:10 CET
+----------------------------------------------------------
+1/1 Testing: TestCar
+1/1 Test: TestCar
+Command: "/Users/neil/Code/ZZ3/CPP/Car/build/test/test_car"
+Directory: /Users/neil/Code/ZZ3/CPP/Car/build/test
+"TestCar" start time: Dec 04 00:10 CET
+Output:
+----------------------------------------------------------
+===============================================================================
+All tests passed (24 assertions in 9 test cases)
+
+<end of output>
+Test time =   0.21 sec
+----------------------------------------------------------
+Test Passed.
+"TestCar" end time: Dec 04 00:10 CET
+"TestCar" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 04 00:10 CET

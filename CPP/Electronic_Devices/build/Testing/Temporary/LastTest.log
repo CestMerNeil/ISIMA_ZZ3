@@ -1,0 +1,22 @@
+Start testing: Dec 05 08:06 CET
+----------------------------------------------------------
+1/1 Testing: TestDevices
+1/1 Test: TestDevices
+Command: "/Users/neil/Code/ZZ3/CPP/Electronic_Devices/build/test/test_devices"
+Directory: /Users/neil/Code/ZZ3/CPP/Electronic_Devices/build/test
+"TestDevices" start time: Dec 05 08:06 CET
+Output:
+----------------------------------------------------------
+
+===============================================================================
+All tests passed (27 assertions in 12 test cases)
+
+<end of output>
+Test time =   0.02 sec
+----------------------------------------------------------
+Test Passed.
+"TestDevices" end time: Dec 05 08:06 CET
+"TestDevices" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Dec 05 08:06 CET

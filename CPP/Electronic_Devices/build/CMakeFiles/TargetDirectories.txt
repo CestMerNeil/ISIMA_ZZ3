@@ -1,0 +1,8 @@
+/Users/neil/Code/ZZ3/CPP/Electronic_Devices/build/CMakeFiles/devices_lib.dir
+/Users/neil/Code/ZZ3/CPP/Electronic_Devices/build/CMakeFiles/test.dir
+/Users/neil/Code/ZZ3/CPP/Electronic_Devices/build/CMakeFiles/edit_cache.dir
+/Users/neil/Code/ZZ3/CPP/Electronic_Devices/build/CMakeFiles/rebuild_cache.dir
+/Users/neil/Code/ZZ3/CPP/Electronic_Devices/build/test/CMakeFiles/test_devices.dir
+/Users/neil/Code/ZZ3/CPP/Electronic_Devices/build/test/CMakeFiles/test.dir
+/Users/neil/Code/ZZ3/CPP/Electronic_Devices/build/test/CMakeFiles/edit_cache.dir
+/Users/neil/Code/ZZ3/CPP/Electronic_Devices/build/test/CMakeFiles/rebuild_cache.dir

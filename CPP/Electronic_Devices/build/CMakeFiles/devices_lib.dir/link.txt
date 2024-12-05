@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libdevices_lib.a CMakeFiles/devices_lib.dir/src/Device.cpp.o CMakeFiles/devices_lib.dir/src/SmartDevice.cpp.o CMakeFiles/devices_lib.dir/src/DeviceFactory.cpp.o CMakeFiles/devices_lib.dir/src/DeviceManager.cpp.o CMakeFiles/devices_lib.dir/src/ProxyDevice.cpp.o CMakeFiles/devices_lib.dir/src/DeviceObserver.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libdevices_lib.a

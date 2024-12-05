@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libpokemon_lib.a CMakeFiles/pokemon_lib.dir/src/Pokemon.cpp.o CMakeFiles/pokemon_lib.dir/src/Pokedex.cpp.o CMakeFiles/pokemon_lib.dir/src/Battle.cpp.o CMakeFiles/pokemon_lib.dir/src/Singleton.cpp.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libpokemon_lib.a

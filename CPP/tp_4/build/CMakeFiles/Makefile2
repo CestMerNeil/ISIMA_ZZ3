@@ -190,8 +190,8 @@ CMakeFiles/tp4_vecteur.dir/clean:
 # Target rules for target CMakeFiles/tp4_test.dir
 
 # All Build rule for target.
-CMakeFiles/tp4_test.dir/all: CMakeFiles/test.dir/all
 CMakeFiles/tp4_test.dir/all: CMakeFiles/common.dir/all
+CMakeFiles/tp4_test.dir/all: CMakeFiles/test.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tp4_test.dir/build.make CMakeFiles/tp4_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tp4_test.dir/build.make CMakeFiles/tp4_test.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/neil/Code/ZZ3/CPP/tp_4/build/CMakeFiles --progress-num=4,5 "Built target tp4_test"

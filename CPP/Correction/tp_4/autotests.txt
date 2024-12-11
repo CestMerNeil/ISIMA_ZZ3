@@ -1,0 +1,145 @@
+AUTOTEST MOUCHARD
+
+- Sortie 1
+  - 1 x constructeur ad hoc
+
+- Sortie 2
+  - 1 x constructeur ad hoc
+
+- Sortie 3
+  - 1 x constructeur de copie
+
+- Sortie 4
+  - 1 x constructeur de mouvement
+
+- Sortie 5
+  - 1 x affectation par copie
+
+- Sortie 6
+  - 1 x contructeur ad hoc
+    (construction de l'objet a la volee)
+
+  - 1 x affectation par mouvement
+    (affectation de l'objet precedent qui est une rvalue)
+
+
+AUTOTEST VECTEUR (SANS MOUVEMENT)
+
+- Sortie 1
+  - 20 x constructeur par defaut
+    (construction par defaut des vecteurs v1 et v2 => construction de 2*10 complexes)
+
+- Sortie 2
+  - 20 x constructeur ad hoc
+    (construction de 2*10 objets a la volee)
+
+  - 20 x affectation par mouvement
+    (affectation des objets precedents qui sont des rvalues)
+
+- Sortie 3
+  - 10 x constructeur par defaut
+    (construction par copie du vecteur v3 => construction de 10 complexes...)
+
+  - 10 x affectation par copie
+    (...et 10 affectations de complexes)
+
+- Sortie 4
+  - 10 x constructeur par defaut
+    (construction par defaut du vecteur v4 => construction de 10 complexes)
+
+  - 10 x constructeur par defaut
+    (operateur + sur les vecteurs v1 et v2 => creation d'un vecteur local
+                                           => construction de 10 complexes)
+
+  - 10 x constructeur ad hoc
+    (operation + sur les vecteurs v1 et v2 => 10 operations + sur les complexes
+                                           => 10 objets crees a la volee...)
+
+  - 10 x affectation par mouvement
+    (...et 10 affectations par mouvement qui stockent les resultats dans le vecteur local)
+
+  - 10 x affectation par copie
+    (copie du vecteur resultat dans la variable v4, le resultat est bien une rvalue
+     mais la classe Vecteur n'a pas d'operateur d'affectation par mouvement)
+
+- Sortie 5
+  - 10 x constructeur par defaut
+    (construction du vecteur v5 => construction de 10 complexes)
+
+  - 10 x constructeur par defaut
+    (operateur + sur les vecteurs v2 et v4 => creation d'un vecteur local
+                                           => construction de 10 complexes)
+
+  - 10 x constructeur ad hoc
+    (operation + sur les vecteurs v2 et v4 => 10 operations + sur les complexes
+                                           => 10 objets crees a la volee...)
+
+  - 10 x affectation par mouvement
+    (...et 10 affectations par mouvement qui stockent les resultats dans le vecteur local)
+
+  - 10 x contructeur par defaut
+    (operateur * sur les vecteurs v1 et résultat v2+v4 => creation d'un vecteur local
+                                                       => construction de 10 complexes)
+
+  - 10 x constructeur ad hoc
+    (operateur * sur les vecteurs v1 et résultat v2+v4 => 10 operations * sur les complexes
+                                                       => 10 objets crees a la volee...)
+
+  - 10 x affectation par mouvement
+    (...et 10 affectations par mouvement qui stockent les resultats dans le vecteur local)
+
+  - 10 x affectation par copie
+    (copie du vecteur resultat dans la variable v4, le resultat est bien une rvalue
+     mais la classe Vecteur n'a pas d'operateur d'affectation par mouvement)
+
+- Sortie 6
+  - 10 x constructeur par copie
+    (10 push_back => 10 ajouts d'un complexe dans la liste)
+
+- Sortie 7 : on ne peut pas comptabiliser exactement les operations
+  (depend de l'algorithme de tri et des donnees manipulees)
+
+
+AUTOTEST VECTEUR (AVEC MOUVEMENT)
+
+Les operations de copie concernant les vecteurs qui sont des rvalues deviennent des mouvements. Les autres operations ne changent pas.
+
+- Sortie 1 : pas de changement
+
+- Sortie 2 : pas de changement
+
+- Sortie 3 : pas de changement
+
+- Sortie 4 : seule la derniere etape change => plus aucune operation concernant les complexes
+  - 10 x constructeur par defaut
+
+  - 10 x constructeur par defaut
+
+  - 10 x constructeur ad hoc
+
+  - 10 x affectation par mouvement
+
+  - rien ne se passe
+    (MOUVEMENT du vecteur resultat dans la variable v4, car le resultat est une rvalue)
+
+- Sortie 5 : seule la derniere etape change => plus aucune operation concernant les complexes
+  - 10 x constructeur par defaut
+
+  - 10 x constructeur par defaut
+
+  - 10 x constructeur ad hoc
+
+  - 10 x affectation par mouvement
+
+  - 10 x contructeur par defaut
+
+  - 10 x constructeur ad hoc
+
+  - 10 x affectation par mouvement
+
+  - rien ne se passe
+    (MOUVEMENT du vecteur resultat dans la variable v4, car le resultat est une rvalue)
+
+- Sortie 6 : pas de changement
+
+- Sortie 7 : pas de changement

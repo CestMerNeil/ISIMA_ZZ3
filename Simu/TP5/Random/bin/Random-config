@@ -71,7 +71,7 @@ while test $# -gt 0; do
        	;;
 
     --cxxflags)
-       	echo -O -ansi -pedantic -Wall -D_GNU_SOURCE -g -O2
+       	echo -O -ansi -pedantic -Wall -D_GNU_SOURCE -std=c++17
        	;;
 
     --ldflags)

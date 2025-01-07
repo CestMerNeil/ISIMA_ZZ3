@@ -8,13 +8,14 @@
 
 int main()
 {
+    /*
     CLHEP::MTwistEngine *s = new CLHEP::MTwistEngine();
 
     int fs;
     double f;
     unsigned int nbr;
 
-    fs = open("./rngbForMarsagliaTests", O_CREAT | O_TRUNC | O_WRONLY, S_IRUSR | S_IWUSR);
+    fs = open("./rngbForMarsagliaTests.txt", O_CREAT | O_TRUNC | O_WRONLY, S_IRUSR | S_IWUSR);
 
     for (int i = 1; i < 3000000; i++)
     {
@@ -22,6 +23,7 @@ int main()
         nbr = (unsigned int)(f * UINT_MAX);
 
         // printf("%f\n", f); ou mieux cout << f << endl;
+        std::cout << f << std::endl;
 
         write(fs, &nbr, sizeof(unsigned int));
     }
@@ -30,5 +32,15 @@ int main()
 
     delete s;
 
+    return 0;
+    */
+    CLHEP::MTwistEngine *engine = new CLHEP::MTwistEngine();
+
+    for (int i = 0; i < 10; i++)
+    {
+        std::cout << engine->flat() << std::endl;
+    }
+
+    delete engine;
     return 0;
 }

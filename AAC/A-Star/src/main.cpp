@@ -2,9 +2,12 @@
 #include "A_Star.hpp"
 #include "Grid.hpp"
 
+/**
+ * @brief Fonction principale démontrant l'exécution de l'algorithme A*.
+ */
 int main()
 {
-    // 16 x 16 grid
+    // Définition d'une grille 16x16 avec des obstacles
     std::vector<std::vector<int>> grid = {
         {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
         {0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0},
@@ -29,15 +32,16 @@ int main()
     AStar pathfinder;
     std::vector<Node> path = pathfinder.findPath(grid, start, goal);
 
-    Grid gridDisplay;
+    Grid gridDisplay(16, 16);
+
     if (!path.empty())
     {
-        std::cout << "Path found:\n";
+        std::cout << "Chemin trouvé :\n";
         gridDisplay.displayGrid(grid, path);
     }
     else
     {
-        std::cout << "No path found.\n";
+        std::cout << "Aucun chemin trouvé.\n";
     }
 
     return 0;
